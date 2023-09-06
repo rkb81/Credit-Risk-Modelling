@@ -52,8 +52,8 @@ The data contains financial information related to loans, including loan size, i
 
 - Model 2, which uses resampled training data to address class imbalance, outperforms Model 1.
 - Model 2 achieves a higher balanced accuracy score (0.9942) compared to Model 1 (0.9521).
-- Model 2 maintains high precision for healthy loans (class 0) while improving precision for high-risk loans (class 1) compared to Model 1.
 - Model 2 also achieves excellent recall scores for both classes, indicating strong performance in identifying loan statuses.
 
 **Recommendation:**
-Based on the results, Model 2, which uses logistic regression with resampled training data, is recommended for predicting loan statuses. It is superior to model 1 in terms of balanced accuracy score, precision and recall for high risk loans, consistency in performance and class imbalance handling. Model 2 is the better choice for balanced performance.
+
+Based on the results, Model 2, which uses logistic regression with resampled training data, is recommended for predicting loan statuses. It is superior to model 1 in terms of balanced accuracy score, recall for high risk loans and class imbalance handling. The performance of a machine learning model can depend on the specific problem. If one class significantly outnumbers the other (as seen in this dataset where healthy loans greatly outnumber high-risk loans), the model's performance may be heavily biased towards the larger class. In this case, accurately predicting the smaller class (class 1, high-risk loans) might be more critical, especially if the cost of false negatives (missed high-risk loans) is high. 

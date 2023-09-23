@@ -1,6 +1,6 @@
 **Overview of the Analysis**
 
-**Purpose of the Analysis:**
+**Introduction:**
 
 The purpose of this analysis is to evaluate the performance of machine learning models for predicting loan statuses, specifically healthy and high-risk loans. The analysis addresses the imbalanced classes and assesses the models' abilities to distinguish between healthy loans (class 0) and high-risk loans (class 1). Two machine learning models are compared, one using the original data and another using resampled training data to address class imbalance.
 

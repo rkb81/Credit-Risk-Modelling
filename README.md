@@ -1,4 +1,6 @@
-**Overview of the Analysis**
+# Credit Risk Classification
+
+## Overview of the Analysis
 
 **Introduction:**
 
@@ -26,7 +28,7 @@ The data contains financial information related to loans, including loan size, i
 - Logistic Regression for both Model 1 and Model 2.
 - Resampling using RandomOverSampler to address class imbalance for Model 2.
 
-**Results**
+## Results
 
 **Machine Learning Model 1 (Original Data):**
 
@@ -47,6 +49,8 @@ The data contains financial information related to loans, including loan size, i
 - Precision for Class 1 (High-Risk Loans): 0.85
 - Recall for Class 0 (Healthy Loans): 0.99
 - Recall for Class 1 (High-Risk Loans): 0.99
+
+## Conclusion
 
 **Summary**
 

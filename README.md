@@ -1,5 +1,4 @@
-# "Assessing Loan Status Prediction Models: 
-## Handling Imbalance and Improving Accuracy
+# "Assessing Loan Status Prediction Models: Handling Imbalance and Improving Accuracy
 
 ## Overview of the Analysis
 
